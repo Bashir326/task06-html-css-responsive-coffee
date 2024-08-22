@@ -262,6 +262,15 @@ nav{
       font-size: 13px;
       padding: 5px;
     }
+    /* cold coffee */
+    .cofe-cup{
+      width: 180px;
+      height: 260px;
+    }
+    .cofe-cup h4{
+      font-size: 3.2vh;
+      
+    }
  }
  /* Tabs */
  @media(max-width:780px){
@@ -342,6 +351,24 @@ nav{
       font-size: 2vh;
       font-weight: 400px;
       padding: 0 20px;
+    }
+    /* cold coffee */
+    .cold-cofe-container{
+      display: grid;
+      grid-template-columns: 30% 30%;
+      justify-content: space-evenly;
+      align-items: center;
+      margin-top: 50px;
+      gap: 30px;
+    }
+    .cofe-cup{
+      width: 220px;
+      height: 255px;
+    }
+    .cold-cofe-container img{
+      padding: 30px 40px;
+      width: 100px;
+      height: 150px;
     }
  }
  /* Mobile */
@@ -438,6 +465,24 @@ nav{
         text-align: justify;
         padding-top: 20px;
         font-family:Arial, Helvetica, sans-serif;
+      }
+      /* cold cofee */
+      .cold-cofe-container{
+        display: grid;
+        grid-template-columns: 65%;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-top: -10px;
+        gap: 30px;
+      }
+      .cofe-cup{
+        width: 220px;
+        height: 250px;
+      }
+      .cofe-cup img{
+        padding: 30px 40px;
+        width: 100px;
+        height: 220px;
       }
     }
     .home-image{
