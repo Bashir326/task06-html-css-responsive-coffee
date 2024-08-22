@@ -184,7 +184,37 @@ nav{
   }
   .cofe-cup .text-body h4{
     font-size: 3vh;
+  }
 
+  /* Beans */
+  .beans-container{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+  }
+  .beans-container div{
+    text-align: center;
+    width: 180px;
+    height: 180px;
+    border-radius: 10px;
+    border: 1px solid rgba(77, 48, 34, 0.589);
+    box-shadow: 2px 2px 10px 10px rgba(77, 48, 34, 0.589);
+  }
+  .beans-container img{
+    position: relative;
+    top: -130px;
+    width: 185px;
+  }
+  .beans-container p{
+    margin-top: -150px;
+  }
+  #heading{
+    text-align: center;
+    padding-top: 60px;
+    padding-top: 40px;
+    padding-bottom: 60px;
+    text-decoration: underline;
+    font-size: 30px;
   }
  /* small 1000px */
  @media(max-width:1000px){
@@ -270,6 +300,29 @@ nav{
     .cofe-cup h4{
       font-size: 3.2vh;
       
+    }
+    /* Beans */
+    .beans-container{
+      display: grid;
+      grid-template-columns: 30% 30%;
+      justify-content: center;
+      align-items: center;
+      gap: 80px;
+    }
+    .beans-container div{
+      width: 250px;
+      height: 250px;
+    }
+    .beans-container img{
+      position: relative;
+      top: -150px;
+      width: 240px;
+      
+
+    }
+    .beans-container p{
+      margin-top: -180px;
+      font-size: 25px;
     }
  }
  /* Tabs */
@@ -369,6 +422,24 @@ nav{
       padding: 30px 40px;
       width: 100px;
       height: 150px;
+    }
+    /* beans */
+    .beans-container{
+      display: grid;
+      grid-template-columns: 30% 30%;
+
+    }
+    .beans-container div{
+      width: 220px;
+      height: 220px;
+    }
+    .beans-container img{
+      position: relative;
+      top: -150px;
+    }
+    .beans-container p{
+      margin-top: -180px;
+      font-size: 15px ;
     }
  }
  /* Mobile */
@@ -483,6 +554,31 @@ nav{
         padding: 30px 40px;
         width: 100px;
         height: 220px;
+      }
+      /* baens */
+      .beans-container{
+        display: grid;
+        grid-template-columns: 70%;
+        justify-content: center;
+        align-items: center;
+        gap: 80px;
+        margin-top: 30px;
+      }
+      .beans-container div{
+        width: 250px;
+        height: 250px;
+      }
+      .beans-container img{
+        position: relative;
+        top: -150px;
+        width: 240px;
+      }
+      .beans-container p{
+        font-size: 20px;
+        margin-top: -150px;
+      }
+      #heading{
+        font-size: 15px;
       }
     }
     .home-image{
